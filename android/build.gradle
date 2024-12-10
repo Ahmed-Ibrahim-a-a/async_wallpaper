@@ -24,6 +24,9 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 34
 
+    // Add the namespace property here
+    namespace 'com.codenameakshay.async_wallpaper'
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
